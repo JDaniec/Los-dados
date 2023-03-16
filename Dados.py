@@ -1,8 +1,9 @@
 print("-------------------------------------------------")
 print("----------------------Dados----------------------")
 print("-------------------------------------------------")
-
-c = int(input(" Digite el numero del dado: "))
+import random
+c = random.randint(1,6)
+print("La cara es " + str(c))
 
 if 1 <= c <= 6:
     if c == 1:
